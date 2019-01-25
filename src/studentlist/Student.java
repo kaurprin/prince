@@ -4,6 +4,7 @@ public class Student {
  
     private String name;
     private int id;
+   private String DOB;
     
    
     public Student()
@@ -18,7 +19,7 @@ public class Student {
     }
     public void setName(String givenName)
     {
-        this.name = givenName;
+        name = givenName;
     }
     public String getName()
     {
@@ -32,6 +33,13 @@ public class Student {
     public int getId()
     {
            return this.id;
+    }
+
+    /**
+     * @return the DOB
+     */
+    public String getDOB() {
+        return DOB;
     }
             
     
